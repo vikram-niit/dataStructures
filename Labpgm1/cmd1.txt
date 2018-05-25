@@ -1,0 +1,12 @@
+javac -Xlint:unchecked -sourcepath linearList -cp linearList linearList/*.java
+
+jar -cvmf manifest.txt linearList.jar linearList
+
+java -jar linearList.jar
+
+
+javac -Xlint:unchecked -sourcepath linearList -cp linearList linearList/*.java
+
+jar -cvmf manifest2.txt linkedList.jar linearList
+
+java -jar linkedList.jar

@@ -1,0 +1,5 @@
+javac -sourcepath src -cp src/selectionByMedian src/selectionByMedian/*.java
+
+jar -cvmf manifest2.txt  selectionByMedian.jar selectionByMedian
+
+java -jar selectionByMedian.jar
